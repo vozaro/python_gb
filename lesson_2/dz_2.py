@@ -9,4 +9,5 @@ print(data)
 
 data.insert(1, data.pop(0))
 data.insert(2, data.pop(3))
+
 print(data)
