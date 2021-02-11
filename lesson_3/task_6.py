@@ -3,5 +3,4 @@ def int_func(*args):
     print(text.title())
     return
 
-
 int_func()
