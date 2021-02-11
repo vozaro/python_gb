@@ -3,7 +3,10 @@ def my_func(x, y):
         x = float(input('Введите действительное положительное число - '))
     while y >= 0:
         y = int(float(input('Введите отрицательное целое число - ')))
-    return pow(x, y)
+    r = 1
+    for i in range(-y):
+        r /= x
+    return r
 
 print(my_func(float(input('Введите действительное положительное число - ')),
                  int(float(input('Введите отрицательное целое число - ')))))
