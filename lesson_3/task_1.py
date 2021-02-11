@@ -4,6 +4,4 @@ def division(divisible, divisor):
         divisor = (int(input('Введите делитель - ')))
     return divisible / divisor
 
-result = division(int(input('Введите делимое - ')), int(input('Введите делитель - ')))
-
-print(result)
+print(division(int(input('Введите делимое - ')), int(input('Введите делитель - '))))
