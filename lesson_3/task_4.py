@@ -6,7 +6,8 @@ def my_func(x, y):
     r = 1
     for i in range(-y):
         r /= x
-    return r
+    print(r)
 
-print(my_func(float(input('Введите действительное положительное число - ')),
-                 int(float(input('Введите отрицательное целое число - ')))))
+
+my_func(float(input('Введите действительное положительное число - ')),
+                 int(float(input('Введите отрицательное целое число - '))))
