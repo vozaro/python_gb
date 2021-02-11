@@ -1,14 +1,15 @@
 def my_func(a, b, c):
     if a < b:
-        min = a
+        min_numb = a
     else:
-        min = b
-    if c < min:
-        min = c
-    return a + b + c - min
+        min_numb = b
+    if c < min_numb:
+        min_numb = c
+    return a + b + c - min_numb
 
-sum = my_func(int(input('Введите первое число - ')),
-               int(input('Введите второе число - ')),
-               int(input('Введите третье число - ')))
 
-print(sum)
+sum_el = my_func(int(input('Введите первое число - ')),
+                 int(input('Введите второе число - ')),
+                 int(input('Введите третье число - ')))
+
+print(sum_el)
