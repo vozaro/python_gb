@@ -14,5 +14,4 @@ def my_sum():
         print('Текущая сумма - ', sum_result)
     print('Финальная сумма - ', sum_result)
 
-
 my_sum()
