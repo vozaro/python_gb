@@ -1,0 +1,4 @@
+Orazov 18000
+Gorshkov 22000
+Dolgikh 19000
+Ignatyev 25000
