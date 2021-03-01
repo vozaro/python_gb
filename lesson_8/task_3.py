@@ -10,13 +10,13 @@ class Error:
                 print(f'Текущий список - {self.my_list} \n ')
             except:
                 print(f'Недопустимое значение!')
-                stop = input('Чтобы закончить введите слово - stop \n')
+                st = input('Чтобы закончить введите слово - stop \n')
 
-                if stop != 'stop':
-                    print(f'Текущий список - {self.my_list} \n ')
+                if st == 'stop' or st == 'Stop':
                     print(try_except.my_input())
                 else:
-                    print()
+                    return f'Программа остановлена!'
+                break
 
 
 try_except = Error()
